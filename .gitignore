@@ -1,0 +1,56 @@
+# 💾 Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# 📦 Virtual environment
+venv/
+.env/
+.envrc
+*.venv
+Pipfile
+Pipfile.lock
+
+# ⚙️ Odoo auto-generated files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+.odoo/
+
+# 📁 Compiled and temporary files
+*.so
+*.DS_Store
+*.db
+*.sqlite
+*.egg-info/
+*.manifest
+*.spec
+
+# 📜 Odoo Addons
+addons/*/static/lib/
+addons/*/node_modules/
+addons/*/__pycache__/
+addons/*/models/__pycache__/
+addons/*/tests/__pycache__/
+addons/*/migrations/__pycache__/
+
+# 🗂️ Ignore .vscode, PyCharm, and JetBrains settings
+.vscode/
+.idea/
+*.iml
+
+# 🚀 Docker & Deployment
+docker-compose.override.yml
+*.pid
+*.sock
+*.pid.lock
+*.key
+*.pem
+
+# ⚠️ Ignore personal/local config files
+config/
+local_settings.py
